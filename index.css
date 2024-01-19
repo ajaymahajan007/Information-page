@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.caintainer{
+background-color: rgb(204, 231, 231);
+min-height: 100vh;
+border: 10px solid rgb(63, 62, 62);
+}
+.cantent{
+          max-width: 900px;
+          margin: 0 auto;
+}
+.top_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: end;
+}
+.top_section h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.top_section h4{
+    text-align: end;
+}
+.img_caintainer{
+    border-radius: 230px;
+    overflow: hidden;
+}
+.img_caintainer,img{
+    width: 300px;  
+    height: 320px;
+}
+.about_section{
+    margin-top: 50px;
+}
+.about_section h2{
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about_section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
+
+.middle_section h2{
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.middle_section p{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    color: orangered;
+    text-shadow: 1px 0px 2px black;
+}
+.middle_section h4{
+    margin-left: 15px;
+    letter-spacing: 1.2px;
+    font-size: 18px;
+}
+footer{
+    text-align: end;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    margin: 50px 0;
+}
